@@ -15,9 +15,9 @@ let charadex = {};
 /* Any preview links will still show Charadex's information
 /* ==================================================================== */
 charadex.site = {
-  title: "Charadex",
-  url: "https://charadex-team.github.io/charadex-v1.0/",
-  description: `A tool for organizing small ARPGs and species.`
+  title: "Takemon",
+  url: "https://takemonml.neocities.org",
+  description: `Masterlist for the Takemon CS.`
 }
 
 /* ==================================================================== */
@@ -26,28 +26,29 @@ charadex.site = {
 /* ==================================================================== */
 charadex.sheet = {
 
-  id: "1GwgfLizD3HQCieGia6di-TfU4E3EipT9Jb0BDZQwNak",
+  id: "1Vih40D1EP6FQUV9o7cVrsMOuQz_3pf3cXxnm_tyPmf4",
 
   pages: {
-    masterlist:    "masterlist",
-    masterlistLog: "masterlist log",
-    inventory:     "inventory",
-    inventoryLog:  "inventory log",
-    items:         "items",
-    traits:        "traits",
-    prompts:       "prompts",
-    faq:           "faq",
-    staff:         "mods",
+    masterlist:      "masterlist",
+    masterlistLogOPT:"masterlist log",
+    inventory:       "inventory",
+    inventoryLogOPT: "inventory log",
+    items:           "items",
+    traits:          "traits",
+    prompts:         "prompts",
+    faq:             "faq",
+    staff:           "mods",
   },
 
   options: {
 
-    designTypes: ['All', 'Official Design', 'Guest Design', 'MYO Slot', 'MYO Design'],
-    statuses: ['All', 'Resell', 'Trade', 'Gift', 'Voided', 'For Sale', 'Purchased'],
-    rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Very Rare', 'Legendary'],
-    species: ['All', 'Dog', 'Cat', 'Bunny'],
-    itemTypes: ['All', 'Currency', 'MYO Slot', 'Pet', 'Trait', 'Misc'],
-    traitTypes: ['All', 'Ears', 'Eyes', 'Body', 'Limbs', 'Tails', 'Misc', 'Mutations']
+    designTypes: ['All', 'Official Design', 'Guest Design', 'MYO Slot', 'MYO Design', 'Event MYO Slot'],
+    obtained: ['All', 'Resell/Trade/Gift', 'Trade/Gift', 'Raffle', 'Voided'],
+    rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Legendary', 'Seasonal'],
+    species: ['All', 'TAKEMON', 'NPC/Mascot', 'Bunny'],
+    prefixes: ['All', 'TKMN', 'NPC', 'MYO', 'EMYO'],
+    traitTypes: ['All', 'Horns', 'Ears', 'Tentacle Tails', 'Demon Tails', 'Hair Tentacles', 'Optional Traits', 'Seasonal Traits']
+    transtactionType: ['New Entry', 'Puchase', 'Resale', 'Trade', 'Gift / Raffle', 'Design Added', 'Event']
 
   }
 
